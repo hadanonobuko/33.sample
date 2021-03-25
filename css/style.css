@@ -1,0 +1,276 @@
+@charset"utf-8";
+
+/*共通*/
+
+html {
+    font-size: 100%;
+    font-size: 18px;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+}
+
+
+body {
+    color: #514a4a;
+    background-image: url(../image/lemon-1024x1024.png), url(../image/strawberry.png);
+    background-repeat: no-repeat;
+    background-size: 50%, 50%;
+    background-position: top 29% right -25%, top 40% left -23%;
+
+}
+
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/*home*/
+
+.home {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home h1 {
+    max-height: 200px;
+    width: auto;
+}
+
+
+
+.home-area {
+    background-color: #d2d009;
+    padding: 0 5%;
+
+}
+
+.home ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home li {
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 30px 0;
+    color: #fafafb;
+}
+
+.home-area a {
+    color: #fafafb;
+}
+
+.home-area img {
+    width: 100%;
+}
+
+.home-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-item img {
+    width: 48px;
+    margin: 50px 0 20px 30px;
+}
+
+/*main*/
+
+.main {
+    padding-bottom: 100px;
+}
+
+.main-title {
+    padding: 150px 0 0;
+    background-image: url(../image/ABOUTlogo.png);
+    background-size: 300px;
+    background-position: center 60px;
+    background-repeat: no-repeat;
+}
+
+.main-text {
+    line-height: 3rem;
+    padding-bottom: 100px;
+}
+
+¸
+/*menu*/
+
+.menu {
+/*    position: relative;*/
+/*    height: 1650px;*/
+}
+
+.menu-title {
+    padding-top: 40px;
+}
+
+.menu-list {
+    background-color: #d2d009;
+}
+
+/*
+.menu-list::before {
+    content: "";
+    width: 550px;
+    height: 1000px;
+    top: 340px;
+    right: 220px;
+    border: 10px dotted #fbf8f8;
+    position: absolute;
+}
+*/
+
+/*
+.menu-list > div {
+    position: absolute;
+    width: 100%;
+    height: 1650px;
+}
+*/
+
+.menu-item {
+
+    padding-top: 100px;
+}
+
+/*
+.item1 {
+    background-image: url(../image/menu-icon1.png);
+    background-position: 250px 40px;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url(../image/menu-icon2.png);
+    background-position: 250px 40px;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url(../image/menu-icon3.png);
+    background-position: 250px 40px;
+    background-repeat: no-repeat;
+}
+*/
+
+
+.menu-item img {
+    max-width: 338px;
+
+}
+
+/*
+.menu-border {
+    border: 10px dotted #fbf8f8;
+    background-color: #fff;
+}
+*/
+
+/*shop*/
+
+.shop-title {
+    padding: 100px 0 30px;
+    background-image: url(../image/shop-icon.png);
+    background-size: 13%;
+    background-position: 210px 80px;
+    background-repeat: no-repeat;
+}
+
+.shop img {
+    width: 90%;
+}
+
+
+/*info*/
+
+.info {
+    margin-top: 100px;
+}
+
+.info-title {
+    margin-bottom: 20px;
+}
+
+.info-container {
+    border-width: 10px;
+    border-style: dotted;
+    border-color: #d2d009;
+}
+
+.info-text {
+    line-height: 1.7;
+}
+
+.info-text h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.info-text h4 {
+    margin-top: 20px;
+}
+
+.info-map img {
+    max-width: 90%;
+    margin: 50px 0;
+}
+
+footer {
+    margin: 30px 0 50px;
+}
+
+/*  PC版 設定  */
+@media(min-width: 768px) {
+
+    .wrapper {
+        width: 1100px;
+        padding: 0;
+    }
+    
+    .menu-list {
+        background-color: transparent;
+    }
+
+    .gnavi-list {
+        display: block;
+    }
+
+    .main-text {
+        background-color: #d2d009;
+        padding: 100px 0;
+    }
+
+
+
+    .menu-list > div {
+        display: flex;
+        justify-content: space-around;
+    }
+    }
+
+/*
+    .menu-item {
+        width: 30%;
+    }
+*/
+
+    .shop-img {
+        max-width: 1510px;
+        padding: 0;
+    }
+
+
+
+}
