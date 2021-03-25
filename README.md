@@ -4,3 +4,6 @@
 sample
 
 date tuika.
+
+新しくリモート編集しました！
+
