@@ -4,3 +4,5 @@
 sample
 
 date tuika.
+
+ほかの人も同時に編集してしまった
